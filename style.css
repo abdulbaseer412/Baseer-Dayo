@@ -228,3 +228,17 @@ footer {
   font-weight: 600;
   text-align: center;
 }
+
+
+
+/* Contact form tweaks */
+input, textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+input:focus, textarea:focus {
+  box-shadow: 0 0 0 3px rgba(255,203,119,0.12);
+}
+.btn { cursor: pointer; }
+
