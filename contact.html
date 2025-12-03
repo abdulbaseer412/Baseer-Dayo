@@ -63,3 +63,67 @@
   </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact - Web of Baseer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1 class="logo">Web of Baseer</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <h2>Contact Me</h2>
+
+    <div class="about-box" style="max-width:700px; margin: 20px auto;">
+      <p>If you have questions about the quizzes, want to give feedback, or want to speak with me about the project, use the form below or email me directly.</p>
+
+      <!-- Simple contact form that opens user's email client -->
+      <!-- Replace youremail@example.com with your real email -->
+      <form action="mailto:abdul.baseer@tis.edu.pk" method="post" enctype="text/plain" style="text-align:left;">
+        <label for="name">Your name</label><br />
+        <input id="name" name="Name" type="text" placeholder="Your name" required
+               style="width:100%; padding:10px; border-radius:6px; margin:6px 0; box-sizing:border-box;" />
+
+        <label for="email">Your email</label><br />
+        <input id="email" name="Email" type="email" placeholder="example@mail.com" required
+               style="width:100%; padding:10px; border-radius:6px; margin:6px 0; box-sizing:border-box;" />
+
+        <label for="subject">Subject</label><br />
+        <input id="subject" name="Subject" type="text" placeholder="Short subject" 
+               style="width:100%; padding:10px; border-radius:6px; margin:6px 0; box-sizing:border-box;" />
+
+        <label for="message">Message</label><br />
+        <textarea id="message" name="Message" rows="6" placeholder="Write your message..."
+                  style="width:100%; padding:10px; border-radius:6px; margin:6px 0; box-sizing:border-box;" required></textarea>
+        <div style="text-align:center; margin-top:12px;">
+          <button type="submit" class="btn" style="padding:10px 20px;">Send</button>
+          <button type="reset" class="btn" style="padding:10px 20px; background:#ccc; color:#222; margin-left:8px;">Clear</button>
+        </div>
+      </form>
+
+      <hr style="margin:20px 0; border:none; height:1px; background:#ddd;" />
+
+      <p><strong>Or email directly:</strong> <a href="mailto:abdul.baseer@tis.edu.pk">abdul.baseer@tis.edu.pk</a></p>
+      <p><strong>School:</strong> The International School Karachi</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Baseer Quiz Project</p>
+  </footer>
+</body>
+</html>
